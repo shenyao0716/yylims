@@ -1,0 +1,15 @@
+lims\sync\SyncSubmitReport.class
+lims\util\MD5Util.class
+lims\sync\SyncReport.class
+lims\util\CommUtil.class
+lims\sync\SyncTask.class
+lims\util\ConnectUtil.class
+lims\util\HttpClientUtil.class
+lims\service\NewEatableClassCalander.class
+lims\util\ImeIntegrationUtils.class
+lims\service\ReportService.class
+lims\util\HttpClient.class
+lims\util\Extension.class
+lims\sync\GetNewEatableClassinfo.class
+lims\util\Constant.class
+lims\service\ReportCalander.class

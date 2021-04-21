@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension class="com.kinorsoft.lims.Extension">
+	<entity-event>
+		<!--<event entityName="SJ_WTCheckSample" 				class="com.kinorsoft.lims.SJWTCheckSampleHandler"/>-->
+		<!--<event entityName="SJ_Template" 					class="com.kinorsoft.lims.SJTemplateHandler"/>-->
+		<!--<event entityName="SJ_SpecialClass" 				class="com.kinorsoft.lims.SJSpecialClassHandler"/>-->
+		<!--<event entityName="SJ_EatableClass" 				class="com.kinorsoft.lims.SJEatableClassHandler"/>-->
+		<!--<event entityName="SJ_Report" 						class="com.kinorsoft.lims.SJReportHandler"/>-->
+		<!--<event entityName="SJ_Area" 						class="com.kinorsoft.lims.SJAreaHandler"/>-->
+		<!--<event entityName="SJ_ResourcesClass" 				class="com.kinorsoft.lims.SJ_ResourcesClassHandler"/>-->
+		<!--&lt;!&ndash;<event entityName="SJ_WarehouseVoucher" 			class="com.kinorsoft.lims.SJ_WarehouseVoucherHandler"/>&ndash;&gt;-->
+		<!--<event entityName="SJ_StandardClass" 				class="com.kinorsoft.lims.SJ_StandardClassHandler"/>-->
+		<!--<event entityName="SJ_Standard" 					class="com.kinorsoft.lims.SJ_StandardHandler"/>-->
+		<!--<event entityName="SJ_Resources" 					class="com.kinorsoft.lims.SJ_ResourcesHandler"/>-->
+		<!--<event entityName="SJ_DetermineSTD" 				class="com.kinorsoft.lims.SJ_DetermineSTDHandler"/>-->
+		<!--<event entityName="SJ_TestingMethod" 				class="com.kinorsoft.lims.SJ_TestingMethodHandler"/>-->
+		<!--<event entityName="SJ_SampleCheckWTD" 				class="com.kinorsoft.lims.SJ_SampleCheckWTDHandler"/>-->
+		<!--<event entityName="SJ_CheckTask" 					class="com.kinorsoft.lims.SJ_CheckTaskHandler"/>-->
+		<!--<event entityName="SJ_ItemClass" 					class="com.kinorsoft.lims.SJ_ItemClassHandler"/>-->
+		<!--<event entityName="SJ_RelatedCompany" 				class="com.kinorsoft.lims.SJ_RelatedCompanyHandler"/>-->
+		<!--<event entityName="SJ_MarketClass" 					class="com.kinorsoft.lims.SJ_MarketClassHandler"/>-->
+		<!--<event entityName="SJ_DeviceClass" 					class="com.kinorsoft.lims.SJ_DeviceClassHandler"/>-->
+		<!--<event entityName="SJ_DeviceLog" 					class="com.kinorsoft.lims.SJ_DeviceLogHandler"/>-->
+		<!--<event entityName="SJ_SampleStamp" 					class="com.kinorsoft.lims.SJ_SampleStampHandler"/>-->
+		<!--<event entityName="OA_SmsSend" 						class="com.kinorsoft.lims.OA_SmsSendHandler"/>-->
+		
+		<!--<event entityName="SJ_SampleOperate" 				class="com.kinorsoft.lims.SJ_SampleOperateHandler"/> -->
+		<!-- <event entityName="Customer" class="com.kinorsoft.CustomerHandler"/> -->
+	</entity-event>
+	<system-event>
+		<!-- <event type="Customer" class="com.kinorsoft.MyEventHandler"/> -->
+	</system-event>
+	<entity-implementer>
+		<!-- <implementer entityName="MyEntity" class="com.kinorsoft.MyEntityImplementer" /> -->
+	</entity-implementer>
+
+	<!-- 属性  -->
+	<properties>
+		<!-- 
+		<property name="" value="" />
+		 -->
+		<!-- 提交方式, 1:正在录入 3:未审核 5:未公布 -->
+		<!--<property name="submitType" value="5" />-->
+		<!--&lt;!&ndash;实验市系统登陆帐户&ndash;&gt;-->
+		<!--<property name="lims.user.loginId" value="zhuboying" />-->
+		<!--&lt;!&ndash;共享平台登陆帐户&ndash;&gt;-->
+		<!--<property name="spjcgx.user.loginId" value="zhuboying" />-->
+		<!--<property name="spjcgx.user.password" value="62623267" />-->
+		<!--&lt;!&ndash;实验市系统对应平台中的部门&ndash;&gt;-->
+		<!--<property name="spjcgx.jcdepartment_id" value="74" />-->
+		<!--<property name="spjcgx.jcdepartment_label" value="余姚市食品检测中心" />-->
+		<!--&lt;!&ndash; 录入帐户 &ndash;&gt;-->
+		<!--<property name="spjcgx.recorder.loginId" value="zhuboying" />-->
+		<!--&lt;!&ndash; 审核帐户 &ndash;&gt;-->
+		<!--<property name="spjcgx.auditor.loginId" value="guojianbo" />-->
+		<!--&lt;!&ndash; 平台URL &ndash;&gt;-->
+		<!--<property name="spjcgx.url" value="" />-->
+		<!---->
+		<!--&lt;!&ndash; 为true的时候委托单样品走检测流程&ndash;&gt;-->
+		<!--<property name="checkMode" value="false" />-->
+		<!--<property name="codeNo_begin" value="检测机构" />-->
+		<!--<property name="codeNo_end" value="号" />-->
+		<!---->
+		<!--&lt;!&ndash; 报告同步周期  单位分钟&ndash;&gt;-->
+		<!--<property name="syncTask_time" value="1000000" />-->
+		<!--&lt;!&ndash; 报告同步每次的数量&ndash;&gt;-->
+		<!--<property name="syncSubmitReport_no" value="50" />-->
+		<!---->
+		<!--&lt;!&ndash; 短信地址&ndash;&gt;-->
+		<!--<property name="SMSUrl" value="http://ums.zj165.com:8888/sms/Api/Send.do" />-->
+		<!--&lt;!&ndash; 短信帐号&ndash;&gt;-->
+		<!--<property name="SMSLoginName" value="nb_jc" />-->
+		<!--&lt;!&ndash; 短信密码&ndash;&gt;-->
+		<!--<property name="SMSPassword" value="jc2698" />-->
+		<!--&lt;!&ndash; 企业代码&ndash;&gt;-->
+		<!--<property name="SMSSpCode" value="003404" />-->
+		
+		
+	</properties>
+</extension>
