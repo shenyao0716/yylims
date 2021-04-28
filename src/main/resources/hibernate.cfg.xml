@@ -19,9 +19,14 @@
         <!--<property name="connection.username">bgcsuser</property>-->
         <!--<property name="connection.password">TPfPuwqi7AZw</property>-->
         <property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+        <!--本地环境-->
         <property name="connection.url">jdbc:jtds:sqlserver://192.168.0.242:1433;DatabaseName=yylims</property>
         <property name="connection.username">yylims_db</property>
         <property name="connection.password">yylims_db </property>
+        <!--正式环境-->
+<!--    <property name="connection.url">jdbc:jtds:sqlserver://localhost:1433;DatabaseName=lims</property>-->
+<!--    <property name="connection.username">yylims_db</property>-->
+<!--    <property name="connection.password">yylims_db </property>-->
         <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
         <!--<property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>  -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
